@@ -1,0 +1,9 @@
+aiogram>=3.0.0
+httpx
+python-dotenv
+pathvalidate
+tqdm
+mutagen
+beautifulsoup4
+aiofiles
+Pillow
