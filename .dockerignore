@@ -1,0 +1,34 @@
+# python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+
+# data
+downloads/
+*.flac
+*.mp3
+
+# git
+.git/
+.gitignore
+
+# docker
+Dockerfile
+docker-compose.yml
+.dockerignore
+
+# env
+.env
+.env.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+

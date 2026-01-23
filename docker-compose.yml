@@ -1,0 +1,12 @@
+services:
+  qobuz-dl-bot:
+    build: .
+    container_name: qobuz-dl-bot
+    restart: unless-stopped
+    env_file:
+      - .env
+    volumes:
+      - ./downloads:/app/downloads
+    environment:
+      - DOWNLOAD_PATH=/app/downloads
+
